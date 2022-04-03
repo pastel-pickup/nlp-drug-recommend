@@ -30,4 +30,7 @@
 
 # Tools:
 # How do you intend to meet the tools requirement of the project?
+# Are you planning in advance to need or use additional tools beyond those required?
 
+# MVP Goal:
+# What would a minimum viable product (MVP) look like for this project?
