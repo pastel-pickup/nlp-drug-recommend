@@ -30,7 +30,15 @@
 
 # Tools:
 # How do you intend to meet the tools requirement of the project?
+- Data manipulation: Pandas
+- Text Preprocessing: Python Regular Expressions and Spacy
+- Vectorizer: TF-IDF
+- Topic Modeling: NMF
+- App: Streamlit
 # Are you planning in advance to need or use additional tools beyond those required?
+- MongoDB
+- Streamlit
 
 # MVP Goal:
 # What would a minimum viable product (MVP) look like for this project?
+- To have some Topic Modeling done
