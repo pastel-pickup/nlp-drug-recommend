@@ -24,7 +24,7 @@ As for NMF topics, they were as follows:
 
 As a rough base model using both LSA and NMF as topic modeling techniques, the topic words do not give much information. Therefore, it is important to revisit the pre-processing step to only extract relevant words such as adjectives (good, bad), comparatives (better, worse), superlatives (best, worst), related feeling and medical words such as (pain, love, like, vomiting, convulsing, relaxed, etc), and common feeling idioms and phrases such as (this works for me, I can relax now, I would recommend this, etc). Therefore, for the next step, CountVectorizer and TFIDF will be compared with SpaCy Part-Of-Speech as text pre-processing tool for relevant word and phrase extraction. 
 
-SpaCy was downloaded and tested on 3 sample reviews. Will only use 3 reviews as a sample with SpaCy moving forward. 
+SpaCy was downloaded and tested on 3 sample reviews. Will only use 3 reviews as a sample with SpaCy moving forward to save space and processing.
 
 # Moving Forward
 
