@@ -10,4 +10,19 @@ Each review varies from 5 words to over 100 words. The original data were consis
 
 # Work Completed
 
-In pre-processing the data, I removed numbers, capital letters, punctuations, and white spaces. 
+In pre-processing the data, I removed numbers, capital letters, punctuations, white spaces, and common English stopwords in each review.
+
+In choosing between CountVectorizer and TfidfVectorizer, I compared them both in a supervised environment using Logistic Regression and Naive Bayes, but this was not an appropriate way to compare the two vectors, because I was using the "positive" and "negative" rating data to train the models, and not let the models learn the text on their own and classify the topics from there. To correct this step, in my next iteration, I will compare both CountVectorizer and TfidVectorizer in an unsupervised setting with only textual review data. 
+
+For my base NLP Unsupervised model, I implemented CountVectorizer with min_df = 3 (rare words appearing in 3 or fewer documents will be ignored), and used Latent Semantic Analysis (LSA) to model my topics. As a result, the produced LSA topics were:
+
+<img width="132" alt="base_lsa" src="https://user-images.githubusercontent.com/67651332/162654061-a71dcfde-c9eb-4c07-a5c4-4db22bed0f76.PNG">
+
+As for NMF topics, they were as follows:
+
+<img width="263" alt="base_nmf" src="https://user-images.githubusercontent.com/67651332/162654089-09a25d86-eac1-4ae3-a5e8-b73b41d2815c.PNG">
+
+As a rough base model using both LSA and NMF as topic modeling techniques, the topic words do not give much information. Therefore, it is important to revisit the pre-processing step to only extract relevant words such as adjectives (good, bad), comparatives (better, worse), superlatives (best, worst), related feeling and medical words such as (pain, love, like, vomiting, convulsing, relaxed, etc), and common feeling idioms and phrases such as (this works for me, I can relax now, I would recommend this, etc). Therefore, for the next step, CountVectorizer and TFIDF will be compared with SpaCy Part-Of-Speech as text pre-processing tool for relevant word and phrase extraction. 
+
+SpaCy was downloaded and tested on 3 sample reviews. Will only use 3 reviews as a sample with SpaCy moving forward. 
+
