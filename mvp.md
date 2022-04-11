@@ -31,3 +31,4 @@ SpaCy was downloaded and tested on 3 sample reviews. Will only use 3 reviews as 
 I will refine the text pre-processing step with SpaCy as well as other techniques in NLTK. 
 I will look into CorEx to anchor "negative" and "positive" feeling words. 
 I will look for the best web-based recommendation system that can be built with Streamlit and design its schematic. 
+I will look to see if VADER for sentiment analysis will be helpful. 
