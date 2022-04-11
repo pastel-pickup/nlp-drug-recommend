@@ -26,3 +26,8 @@ As a rough base model using both LSA and NMF as topic modeling techniques, the t
 
 SpaCy was downloaded and tested on 3 sample reviews. Will only use 3 reviews as a sample with SpaCy moving forward. 
 
+# Moving Forward
+
+I will refine the text pre-processing step with SpaCy as well as other techniques in NLTK. 
+I will look into CorEx to anchor "negative" and "positive" feeling words. 
+I will look for the best web-based recommendation system that can be built with Streamlit and design its schematic. 
