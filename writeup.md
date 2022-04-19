@@ -16,7 +16,7 @@ Mai Tran
 5. date (date): date of review entry
 6. usefulCount (numerical): number of users who found review useful
 - For analysis and modeling, there were 212,850 reviews or data points used after cleaning. The resultant document-matrix from CountVectorizer was 212,850 rows by 304 columns. The same document-matrix was used for LSA modeling. 
-- For recommendation, various number of rows of the topic-model matrix were implemented: 100,000 rows; 10,000 rows; 1,000 rows; 100 rows; and 10 rows. 
+- For recommendation, various number of rows of the topic-model matrix were tested for robustness: 100,000 rows; 10,000 rows; 1,000 rows; 100 rows; and 10 rows. 
 - For Streamlit integration, since 200MB was the maximum storage allowed on Streamlit, smaller dataframes of the topic-model matrix were tested for efficiency and robustness. 
 
 
