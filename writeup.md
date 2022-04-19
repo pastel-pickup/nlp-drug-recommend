@@ -13,7 +13,7 @@ Mai Tran
 - Numpy and Pandas for data manipulation
 - NLTK for Natural Language Processing (NLP) including stopwords for word/text filtering and cleaning
 - Regular Expressions for text cleaning
-- CountVectorizer for text feature extraction
+- CountVectorizer for text feature extraction and document-matrix formation
 - TruncatedSVD for Latent Semantic Analysis (LSA) or topic modeling
 - cosine_similarity for recommendation system
 
