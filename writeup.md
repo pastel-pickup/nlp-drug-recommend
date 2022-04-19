@@ -29,6 +29,7 @@ Mai Tran
 - CountVectorizer for text feature extraction and document-matrix formation
 - TruncatedSVD for Latent Semantic Analysis (LSA) or topic modeling
 - cosine_similarity for recommendation system
+- Streamlit as web-application of recommendation system
 
 # Communication
 
