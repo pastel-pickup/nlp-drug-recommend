@@ -4,6 +4,13 @@ Mai Tran
 # Abstract
 
 # Design
+1. Clean data -
+2. Explanatory Data Analysis (EDA) - 
+3. Document-term matrix using Countvectorizer - 
+4. Topic modeling using Latent Semantic Analysis (LSA) via TruncatedSVD - 
+5. Topic model matrix created through refinement of previous steps 3 and 4 - 
+6. Recommendation system created using Content-Based Filtering - 
+7. Web Applicatioin of recommendation system using Streamlit - 
 
 # Data
 - The dataset of drug reviews from University of California Irvine Machine Learning Repository was created by Surya Kallumadi and Felix Gräßer. 
@@ -18,8 +25,6 @@ Mai Tran
 - For analysis and modeling, there were 212,850 reviews or data points used after cleaning. The resultant document-matrix from CountVectorizer was 212,850 rows by 304 columns. The same document-matrix was used for LSA modeling. 
 - For recommendation, various number of rows of the topic-model matrix were tested for robustness: 100,000 rows; 10,000 rows; 1,000 rows; 100 rows; and 10 rows. 
 - For Streamlit integration, since 200MB was the maximum storage allowed on Streamlit, smaller dataframes of the topic-model matrix were tested for efficiency and robustness. 
-
-
 
 # Algorithms
 
