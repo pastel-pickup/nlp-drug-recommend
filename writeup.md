@@ -9,12 +9,15 @@ Mai Tran
 - The dataset of drug reviews from University of California Irvine Machine Learning Repository was created by Surya Kallumadi and Felix Gräßer. 
 - Here is the link to the dataset: https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29
 - Each row of the dataset is made of the following features or columns:
-  1. drugName (categorical): name of drug
-  2. condition (categorical): name of condition
-  3. review (text): patient review
-  4. rating (numerical): 10 star patient rating
-  5. date (date): date of review entry
-  6. usefulCount (numerical): number of users who found review useful
+1. drugName (categorical): name of drug
+2. condition (categorical): name of condition
+3. review (text): patient review
+4. rating (numerical): 10 star patient rating
+5. date (date): date of review entry
+6. usefulCount (numerical): number of users who found review useful
+- For analysis and modeling, there were 212,850 reviews or data points used after cleaning. The resultant document-matrix from CountVectorizer was 212,850 rows by 304 columns. The same document-matrix was used for LSA modeling. 
+- For recommendation, various number of rows of the topic-model matrix were implemented: 100,000 rows; 10,000 rows; 1,000 rows; 100 rows; and 10 rows. 
+
 
 
 # Algorithms
