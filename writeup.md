@@ -6,7 +6,7 @@ Mai Tran
 # Design
 
 # Data
-This dataset of drug reviews from University of California Irvine Machine Learning Repository was created by Surya Kallumadi and Felix Gräßer.
+This <u>dataset</u> of drug reviews from University of California Irvine Machine Learning Repository was created by Surya Kallumadi and Felix Gräßer. 
 
 # Algorithms
 
