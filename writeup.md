@@ -47,7 +47,7 @@ Mai Tran
     2. Pain
     3. Birth control
     4. Weight
-    5. Mood
+    5. Mood (Anxiety/Depression)
     6. Acne
   
   Note: upon closer assessment, #1 should be Pain and #2 should be Sleep. This note is for future refinement of the model. 
