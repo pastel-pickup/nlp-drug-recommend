@@ -62,6 +62,19 @@ Mai Tran
 - For Streamlit integration, since 200MB was the maximum storage allowed on Streamlit, smaller dataframes of the topic-model matrix were tested for efficiency and robustness. 
 
 # Algorithms
+1. Regular Expressions for text cleaning
+2. CountVectorizer - for document-matrix modeling
+3. TruncatedSVD - for Latent Semantic Analysis (LSA) topic modeling and generating a topic-model matrix
+4. pairwise_distances - recommendation method with pairwise_distances comparison for PCA-based features was found to be the fastest and most accurate
+5. cosine_similarity - recommendation method with cosine_similarty comparison with topic-model matrix features was found to be not as fast nor as accurate as the previous recommendation method
+
+For future work on recommendation performance comparison:
+1. SpaCy
+2. VADER
+3. CorEX
+4. TFIDF
+5. LDA
+6. NMF
 
 # Tools
 - Numpy and Pandas for data manipulation
