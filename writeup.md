@@ -2,6 +2,7 @@
 Mai Tran
 
 # Abstract
+This drug recommendation system, PeopleRX, serves as a clinical decision support (CDS) system to help both healthcare providers and patients to be more informed in choosing the most appropriate drugs for fast and efficient treatment without painful side effects, long wait time, uncertainty, human error, costs, and all other unpleasant experiences associated with long clincal drug trials. It was found CountVectorizer along with Latent Semantic Analysis (LSA) used along with pairwise comparison of 3 Principal Component Analysis (PCA) features reduced from 6 original model topics was the best recommendation performer with high accuracy and robustness. 
 
 # Design
 1. Clean data - both downloaded train and test data were combined into one dataset together. Together, the final dataset were 215,063 rows with 7 columns. Regular Expressions (RegEx) was used to remove numbers, capital letters, and punctuations in reviews. Rows with NaN values were removed. It was found there were 1194 NaN rows. Long reviews or reviews longer than 250 words were removed. Removal of drug names from reviews was considered but was not implemented due to the large number of drug names. 
