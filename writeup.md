@@ -12,7 +12,26 @@ Mai Tran
 3. Document-term matrix using Countvectorizer - The best document-term matrix was created using CountVectorizer with custom stopwords, max_df = .75, min_df = .02, and ngram_range=(1,3). The resultant document-term matrix was 212,850 rows and 304 columns. 
 
 
-4. Topic modeling using Latent Semantic Analysis (LSA) via TruncatedSVD - 
+4. Topic modeling using Latent Semantic Analysis (LSA) via TruncatedSVD - Six topics were modeled from the document-term matrix using Latent Semantic Analysis (LSA) via TruncatedSVD. 
+
+
+  - In the first iteration:
+    - first topic: "im, day, taking, ive, mg"
+    - second topic: "mg, pain, day, anxiety, sleep"
+    - third topic: "pain, period, days, got, birth"
+    - fourth topic: "im, ive, pain, years, and feel"
+    - fifth topic: "day, im, days, period, like"
+    - sixth topic: "mg, day, ive, control, and birth"
+
+  - After 20 iterations, the final iteration yielded the following: 
+    - first topic: "pain, period, weight, control, bad"
+    - second topic: "pain, sleep, severe, night, relief"
+    - third topic: "pain, period, birth, control, birth control"
+    - fourth topic: "weight, gain, lbs, weight gain, lost"
+    - fifth topic: "control, birth, birth control, anxiety, depression"
+    - sixth topic: "acne, skin, face, use, clear"
+
+
 6. Topic model matrix created through refinement of previous steps 3 and 4 - 
 7. Recommendation system created using Content-Based Filtering - 
 8. Web Application of recommendation system using Streamlit - 
