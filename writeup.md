@@ -18,7 +18,9 @@ Mai Tran
 
 - These top 6 conditions and their related side effects are strongly correlated to the top 6 common topics discovered by the model using Latent Semantic Analysis (LSA) as later shown in Step 5. This comparison step is an excellent validation step in measuring performance of this CountVectorizer-LSA model. 
 
-3. Document-term matrix using Countvectorizer - The best document-term matrix was created using CountVectorizer with custom stopwords, max_df = .75, min_df = .02, and ngram_range=(1,3). The resultant document-term matrix was 212,850 rows and 304 columns. 
+3. Document-term matrix using Countvectorizer - The best document-term matrix was created using CountVectorizer with custom stopwords, max_df = .75, min_df = .02, and ngram_range=(1,3). The resultant document-term matrix was 212,850 rows and 304 columns. The following are custom stopwords added to NLTK default stopwords list to help in topic modeling refinement process:
+
+   - like, just, ive, im, got, day, days, time, times, years, weeks, took, taking, taken, side effects, get, month, went, ago, feel, felt, one, hours, using, started, back, dont, since, life, never, really, medicine, dose, much, still, doctor, dr, meds. 
 
 
 4. Topic modeling using Latent Semantic Analysis (LSA) via TruncatedSVD - Six topics were modeled from the document-term matrix using Latent Semantic Analysis (LSA) via TruncatedSVD. 
