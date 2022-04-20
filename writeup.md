@@ -41,7 +41,7 @@ Mai Tran
     - sixth topic: "acne, skin, face, use, clear"
 
 
-5. Topic model matrix created through refinement of previous steps 3 and 4 - As shown above, after 20 iterations, LSA yielded the following topics:
+5. Topic model matrix created through refinement of previous steps 3 and 4 - As shown above, after 20 iterations, LSA yielded the following top 6 common topics in the drug reviews:
 
     1. Period
     2. Pain
