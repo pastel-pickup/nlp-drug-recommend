@@ -34,12 +34,12 @@ Mai Tran
 
 6. Topic model matrix created through refinement of previous steps 3 and 4 - As shown above, after 20 iterations, LSA yielded the following topics:
 
-   1. Period
-   2. Pain
-   3. Birth control
-   4. Weight
-   5. Mood
-   6. Acne
+ 1. Period
+ 2. Pain
+ 3. Birth control
+ 4. Weight
+ 5. Mood
+ 6. Acne
 
 
 8. Recommendation system created using Content-Based Filtering - 
