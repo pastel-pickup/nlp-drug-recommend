@@ -83,4 +83,5 @@ LSA Topic Modeling After 20 Iterations:
 
 
 This is a GUI of a web-based application of the PeopleRX Recommendation System built in Streamlit:
-<img width="500" alt="streamlit_gui" src="https://user-images.githubusercontent.com/67651332/164134500-55fb1f2b-605c-4090-8af6-3844a5d51e06.PNG">
+
+<img width="450" alt="streamlit_gui" src="https://user-images.githubusercontent.com/67651332/164134500-55fb1f2b-605c-4090-8af6-3844a5d51e06.PNG">
