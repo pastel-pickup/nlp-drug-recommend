@@ -32,9 +32,18 @@ Mai Tran
     - sixth topic: "acne, skin, face, use, clear"
 
 
-6. Topic model matrix created through refinement of previous steps 3 and 4 - 
-7. Recommendation system created using Content-Based Filtering - 
-8. Web Application of recommendation system using Streamlit - 
+6. Topic model matrix created through refinement of previous steps 3 and 4 - As shown above, after 20 iterations, LSA yielded the following topics:
+
+   1. Period
+   2. Pain
+   3. Birth control
+   4. Weight
+   5. Mood
+   6. Acne
+
+
+8. Recommendation system created using Content-Based Filtering - 
+9. Web Application of recommendation system using Streamlit - 
 
 # Data
 - The dataset of drug reviews from University of California Irvine Machine Learning Repository was created by Surya Kallumadi and Felix Gräßer. 
