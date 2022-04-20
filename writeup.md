@@ -6,8 +6,17 @@ Mai Tran
 # Design
 1. Clean data - both downloaded train and test data were combined into one dataset together. Together, the final dataset were 215,063 rows with 7 columns. Regular Expressions (RegEx) was used to remove numbers, capital letters, and punctuations in reviews. Rows with NaN values were removed. It was found there were 1194 NaN rows. Long reviews or reviews longer than 250 words were removed. Removal of drug names from reviews was considered but was not implemented due to the large number of drug names. 
 
-2. Explanatory Data Analysis (EDA) - 
+2. Explanatory Data Analysis (EDA) - For the original dataset of 215,063 rows, there were 3,671 unique drugs; 916 unique conditions; 131,932 reviews; 3,579 unique entry dates; and 397 unique usefulCount entries. As for most common medical conditions, the top 6 most common conditions are as follows: 
 
+
+   1. Birth Control
+   2. Depression
+   3. Pain
+   4. Anxiety
+   5. Acne
+   6. Bipolar Disorder
+
+- These top 6 conditions and their related side effects are strongly correlated to the top 6 common topics discovered by the model using Latent Semantic Analysis (LSA) as later shown in Step 5. This comparison step is an excellent validation step in measuring performance of this CountVectorizer-LSA model. 
 
 3. Document-term matrix using Countvectorizer - The best document-term matrix was created using CountVectorizer with custom stopwords, max_df = .75, min_df = .02, and ngram_range=(1,3). The resultant document-term matrix was 212,850 rows and 304 columns. 
 
