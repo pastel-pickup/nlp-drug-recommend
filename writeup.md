@@ -75,7 +75,7 @@ Mai Tran
 # Communication
 LSA Topic Modeling First Iteration:
 
-<img width="500" alt="topic_model_first_iter" src="https://user-images.githubusercontent.com/67651332/164134765-4c5ba764-a83a-41a1-b9fe-3c129e70569c.PNG">
+<img width="250" alt="topic_model_first_iter" src="https://user-images.githubusercontent.com/67651332/164134765-4c5ba764-a83a-41a1-b9fe-3c129e70569c.PNG">
 
 LSA Topic Modeling After 20 Iterations:
 
