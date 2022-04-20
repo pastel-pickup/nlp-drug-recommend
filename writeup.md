@@ -43,8 +43,10 @@ Mai Tran
   
   Note: upon closer assessment, #1 should be Pain and #2 should be Sleep. This note is for future refinement of the model. 
 
-8. Recommendation system created using Content-Based Filtering - 
-9. Web Application of recommendation system using Streamlit - 
+6. Recommendation system created using Content-Based Filtering - 
+
+
+7. Web Application of recommendation system using Streamlit - 
 
 # Data
 - The dataset of drug reviews from University of California Irvine Machine Learning Repository was created by Surya Kallumadi and Felix Gräßer. 
