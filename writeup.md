@@ -32,15 +32,16 @@ Mai Tran
     - sixth topic: "acne, skin, face, use, clear"
 
 
-6. Topic model matrix created through refinement of previous steps 3 and 4 - As shown above, after 20 iterations, LSA yielded the following topics:
+5. Topic model matrix created through refinement of previous steps 3 and 4 - As shown above, after 20 iterations, LSA yielded the following topics:
 
- 1. Period
- 2. Pain
- 3. Birth control
- 4. Weight
- 5. Mood
- 6. Acne
-
+    1. Period
+    2. Pain
+    3. Birth control
+    4. Weight
+    5. Mood
+    6. Acne
+  
+  Note: upon closer assessment, #1 should be Pain and #2 should be Sleep. This note is for future refinement of the model. 
 
 8. Recommendation system created using Content-Based Filtering - 
 9. Web Application of recommendation system using Streamlit - 
