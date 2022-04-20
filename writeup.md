@@ -79,7 +79,7 @@ LSA Topic Modeling First Iteration:
 
 LSA Topic Modeling After 20 Iterations:
 
-<img width="475" alt="topic_model_last_iter" src="https://user-images.githubusercontent.com/67651332/164134813-e45c265c-c6c8-41fd-bd87-0383dc04d5cd.PNG">
+<img width="400" alt="topic_model_last_iter" src="https://user-images.githubusercontent.com/67651332/164134813-e45c265c-c6c8-41fd-bd87-0383dc04d5cd.PNG">
 
 
 This is a GUI of a web-based application of the PeopleRX Recommendation System built in Streamlit:
