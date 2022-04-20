@@ -4,13 +4,15 @@ Mai Tran
 # Abstract
 
 # Design
-1. Clean data -
+1. Clean data - both downloaded train and test data were combined into one dataset together. Together, the final dataset were 215,063 rows with 7 columns. Regular Expressions (RegEx) was used to remove numbers, capital letters, and punctuations in reviews. Rows with NaN values were removed. It was found there were 1194 NaN rows. Long reviews or reviews longer than 250 words were removed. Removal of drug names from reviews was considered but was not implemented due to the large number of drug names. 
+
+
 2. Explanatory Data Analysis (EDA) - 
-3. Document-term matrix using Countvectorizer - 
-4. Topic modeling using Latent Semantic Analysis (LSA) via TruncatedSVD - 
-5. Topic model matrix created through refinement of previous steps 3 and 4 - 
-6. Recommendation system created using Content-Based Filtering - 
-7. Web Applicatioin of recommendation system using Streamlit - 
+4. Document-term matrix using Countvectorizer - 
+5. Topic modeling using Latent Semantic Analysis (LSA) via TruncatedSVD - 
+6. Topic model matrix created through refinement of previous steps 3 and 4 - 
+7. Recommendation system created using Content-Based Filtering - 
+8. Web Application of recommendation system using Streamlit - 
 
 # Data
 - The dataset of drug reviews from University of California Irvine Machine Learning Repository was created by Surya Kallumadi and Felix Gräßer. 
