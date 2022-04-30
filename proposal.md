@@ -1,4 +1,4 @@
-# PeopleSay: A Drug Recommendation System For The People By The People
+# PeopleRX: A Drug Recommendation System For The People By The People
 
 # Question/Need:
 # What is the question behind your analysis or model and what practical impact will your work have?
